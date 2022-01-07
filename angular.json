@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "a0a44cf2-c549-48b8-920f-1ef2bd3ea3fc"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/fontawesome.css",
+              "src/assets/css/templatemo-seo-dream.css",
+              "src/assets/css/animated.css",
+              "src/assets/css/owl.css",
+              "src/vendor/bootstrap/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/vendor/jquery/jquery.min.js",
+              "src/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/js/owl-carousel.js",
+              "src/assets/js/animation.js",
+              "src/assets/js/imagesloaded.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
